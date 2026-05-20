@@ -275,5 +275,4 @@ npm run format
 This project is licensed under the **MIT License**. See the `LICENSE` file (if provided) for detail-oriented details.
 
 ---
-
-*For technical questions, operational bottlenecks, or feature suggestions, please reach out to the logistics engineering lead or the repository administrator.*
+Made with ❤️ by Sabari
