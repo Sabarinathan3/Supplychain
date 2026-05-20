@@ -1,0 +1,35 @@
+module.exports = {
+  USER_ROLES: {
+    ADMIN: 'ADMIN',
+    WAREHOUSE_MANAGER: 'WAREHOUSE_MANAGER',
+    VENDOR: 'VENDOR',
+    VIEWER: 'VIEWER',
+  },
+
+  ORDER_STATUS: {
+    PENDING: 'PENDING',
+    CONFIRMED: 'CONFIRMED',
+    SHIPPED: 'SHIPPED',
+    DELIVERED: 'DELIVERED',
+    CANCELLED: 'CANCELLED',
+  },
+
+  TRANSACTION_TYPE: {
+    STOCK_IN: 'STOCK_IN',
+    STOCK_OUT: 'STOCK_OUT',
+    ADJUSTMENT: 'ADJUSTMENT',
+    TRANSFER: 'TRANSFER',
+  },
+
+  CACHE_TTL: {
+    SHORT: 300,      // 5 minutes
+    MEDIUM: 1800,    // 30 minutes
+    LONG: 3600,      // 1 hour
+  },
+
+  PAGINATION: {
+    DEFAULT_PAGE: 1,
+    DEFAULT_LIMIT: 20,
+    MAX_LIMIT: 100,
+  },
+};
